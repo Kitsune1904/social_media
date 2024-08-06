@@ -1,0 +1,13 @@
+.main_holder {
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+}
+
+.main_holder > .bannerHolder {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://canadiangeographic.ca/wp-content/uploads/2022/08/35785844-Winters_Colours-1200x838.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,10 @@
+.header_holder {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: #0f0f0c;
+}
+
+.header_holder > img {
+    padding-left: 20px;
+    width: 64px;
+}

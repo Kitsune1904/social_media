@@ -1,0 +1,26 @@
+.navBar_holder {
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    background-color: #dc5e26;
+}
+
+.navBar_holder > ul {
+    padding: 0;
+}
+
+.navBar_holder > ul > li {
+    list-style: none;
+    text-align: center;
+}
+
+.navBar_holder > ul > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+
+.navBar_holder > ul > li > a:hover {
+    background-color: #ff8650;
+}

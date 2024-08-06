@@ -1,7 +1,7 @@
-
+import classes from "./NavBar.module.css";
 const NavBar = () => {
     return(
-        <div className={"navBar-holder"}>
+        <div className={classes.navBar_holder}>
             <ul>
                 <li><a href={"#"}>Home</a></li>
                 <li><a href={"#"}>About</a></li>
